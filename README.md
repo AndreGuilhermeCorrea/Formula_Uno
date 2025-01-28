@@ -83,7 +83,21 @@ emitir sons, no projeto foi utilizado para fornecer feedback auditivo ao jogador
 
 ## 💾 Componentes de Software Utilizados
 
-em desenvolvimento...
+A biblioteca Wire.h faz parte da biblioteca padrão do Arduino e é usada
+para facilitar a comunicação I2C (Inter-Integrated Circuit) entre o Arduino e
+dispositivos periféricos. No código, a biblioteca Wire.h é usada em conjunto com a
+LiquidCrystal_I2C.h para controlar um display LCD via comunicação I2C. 
+
+Para facilitar a interface com o display LCD, utilizamos a biblioteca
+LiquidCrystal I2C, A biblioteca LiquidCrystal_I2C.h é uma biblioteca específica
+para controlar displays LCD usando a comunicação I2C, baseada na biblioteca
+padrão LiquidCrystal do Arduino.
+
+Em resumo a biblioteca LiquidCrystal_I2C.h é usada para
+inicializar e controlar o display LCD, exibindo o carro (jogador), os obstáculos e
+as mensagens de status. Em resumo Wire.h é para a comunicação I2C,
+enquanto a biblioteca LiquidCrystal_I2C.h faz o controle do display LCD através
+dessa comunicação. 
 
 ## 📚 Referências
 
