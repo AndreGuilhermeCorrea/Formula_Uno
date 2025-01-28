@@ -31,9 +31,22 @@ foi integrado no Tinkercad:
 
 ## 🕹️ Demonstração do Projeto
 
+Durante a concepção do projeto, exploramos diversos componentes
+eletrônicos essenciais para a interação e feedback do jogador. O Arduino Uno,
+como peça central, demonstrou sua versatilidade ao controlar o LED RGB,
+botões pushbutton, display LCD 16x2 e transdutor piezoelétrico. Cada
+componente desempenhou um papel crucial: o LED RGB simulou um semáforo
+de largada realista, enquanto os botões permitiram ao jogador controlar o carro
+virtual, desviando dos obstáculos exibidos no display LCD. O feedback sonoro
+proporcionado pelo transdutor piezoelétrico complementou a experiência
+imersiva do jogo, fornecendo sinais auditivos que acompanhavam cada ação do
+jogador. 
+
 <img src="img/Imagem1_2.jpg" alt="Jogo" width="300" />
 
 <img src="img/Imagem1_1.jpg" alt="Jogo" width="300" />
+
+<img src="img/Imagem3.jpg" alt="Jogo" width="300" />
 
 ## 🛠️ Componentes de Hardware Utilizados
 
